@@ -44,7 +44,6 @@ module.exports = (_, argv) => ({
       name: "poc",
       filename: "remoteEntry.js",
       remotes: {
-        'poc': "poc@https://bfrs01757.github.io/poc/dist/remoteEntry.js"
       },
       exposes: {
         "./MyComp.js" : "./src/MyComp.js"

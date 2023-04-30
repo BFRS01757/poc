@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 
 import "./index.scss";
-import MyComp from "poc/MyComp.js"
+import MyComp from "./MyComp"
 
 
 const App = () => (
