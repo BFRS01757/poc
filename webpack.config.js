@@ -4,7 +4,7 @@ const ModuleFederationPlugin = require("webpack/lib/container/ModuleFederationPl
 const deps = require("./package.json").dependencies;
 module.exports = (_, argv) => ({
   output: {
-    publicPath: "/",
+    publicPath: "/poc",
   },
 
   resolve: {
@@ -43,7 +43,9 @@ module.exports = (_, argv) => ({
     new ModuleFederationPlugin({
       name: "poc",
       filename: "remoteEntry.js",
-      remotes: {},
+      remotes: {
+        'poc': "poc@https://bfrs01757.github.io/poc/dist/remoteEntry.js"
+      },
       exposes: {
         "./MyComp.js" : "./src/MyComp.js"
       },
