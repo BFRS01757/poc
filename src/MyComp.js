@@ -14,7 +14,7 @@ export default function MyComp({ name, logo, company_name }) {
                 </div>
                 <div className="p-4">
                     <p className="text-sm font-bold tracking-wide text-gray-700 uppercase">Detached house • 5y old</p>
-                    <p className="text-3xl text-gray-900">$750,000</p>
+                    <p className="text-3xl text-gray-900">$102392180</p>
                     <p className="text-gray-700">{company_name}</p>
                 </div>
                 <div className="flex p-4 text-gray-700 border-t border-gray-300">
