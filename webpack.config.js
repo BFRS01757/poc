@@ -16,6 +16,7 @@ module.exports = (_, argv) => ({
     historyApiFallback: true,
   },
 
+  
   module: {
     rules: [
       {
