@@ -30,6 +30,7 @@ const App = ({ items = [{
   "active": 1,
   'location': "biging"
 },]  ,orderTitle = "Order #1893-1",status = "In transit"}) => {
+  console.log("order tt = ",orderTitle)
   return <div className="background">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css"></link>
     <div className="container">
