@@ -5,8 +5,8 @@ import ReactDOM from "react-dom";
 
 import "./index.css";
 
-const App = ({ items  ,orderTitle,status}) => {
-  console.log("order tt = ",orderTitle)
+const App = ({ items, orderTitle, status }) => {
+  console.log("order tt = ", orderTitle)
   return <div className="background">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css"></link>
     <div className="container">
@@ -29,8 +29,8 @@ const App = ({ items  ,orderTitle,status}) => {
       <div className="row content">
         <div className="timeline">
           {
-            items.map((ele,i) => (<div key={i} className={`item ${ele.active ? "active" : ""}`}>
-              <div  className="item-label">
+            items.map((ele, i) => (<div key={i} className={`item ${ele.active ? "active" : ""}`}>
+              <div className="item-label">
                 <div className="item-label-date">
                   {ele.date}
                 </div>
