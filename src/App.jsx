@@ -5,31 +5,7 @@ import ReactDOM from "react-dom";
 
 import "./index.css";
 
-const App = ({ items = [{
-  'date': "13.11.2016",
-  'hour': "12:38",
-  'description': "The shipment is ready to be picked up",
-  "active": 0,
-  'location': "biging"
-}, {
-  'date': "13.11.2016",
-  'hour': "12:38",
-  'description': "The shipment is ready to be picked up",
-  "active": 0,
-  'location': "biging"
-}, {
-  'date': "13.11.2016",
-  'hour': "12:38",
-  'description': "in transit",
-  "active": 0,
-  'location': "biging"
-}, {
-  'date': "13.11.2016",
-  'hour': "12:38",
-  'description': "The shipment delivered",
-  "active": 1,
-  'location': "biging"
-},]  ,orderTitle = "Order #1893-1",status = "In transit"}) => {
+const App = ({ items  ,orderTitle,status}) => {
   console.log("order tt = ",orderTitle)
   return <div className="background">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css"></link>
